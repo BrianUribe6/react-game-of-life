@@ -1,0 +1,29 @@
+:root {
+    --square-size: 32px;
+}
+
+.bg-black {
+    background: var(--dark);
+}
+
+.bg-white {
+    background: white;
+}
+
+.grid {
+    display: table;
+}
+
+.grid-row {
+    display: table-row;
+}
+
+.grid-col {
+    display: table-cell;
+}
+
+.square {
+    width: var(--square-size);
+    height: var(--square-size);
+    border: 1px solid rgba(255,255,255, 0.3);
+}
